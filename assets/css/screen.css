@@ -14,6 +14,7 @@ html {
   font-size: 1.125em; /* calculated as 18 / 16 = 1.125 */
   line-height: 1.33em; /* calculated as 24 / 18 = 1.33 */
   text-align: left;
+  margin-left: auto;
 }
 
 /* Set heading parent properties */
@@ -23,6 +24,44 @@ h3,
 h4 {
   text-transform: uppercase;
   padding-bottom: 1em;
+  padding-top: 1em;
   font-weight: bold;
   font-family: sans-serif;
+}
+
+/* Create a functioning and aesthetic navigation bar */
+#header {
+  padding-bottom: 1.5em;
+  text-decoration: none;
+  background: #E07BE0;
+  color: #000000;
+  margin: 10px;
+}
+#header h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+.navigation-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-decoration: none;
+  text-align: center;
+  flex-wrap: wrap;
+
+  background-color: : #000000;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding: .25em;
+  font-weight: bolder;
+}
+li.nav-home: hover,
+li.nav-home: focus,
+li.nav-resume: hover,
+li.nav-resume: focus,
+li.nav-studentorgs: hover,
+li.nav-studentorgs: focus {
+  color: #000000;
+  background-color: #FFFFFF;
 }
