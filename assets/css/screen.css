@@ -6,11 +6,23 @@ video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,a
 
 /* Begin site styles below */
 
+/* Set html parent properties */
 html {
   background: #454851;
-  color: #FF6542;
+  color: #E6EFE9;
   font-family: Verdana, Helvetica, Arial;
   font-size: 1.125em; /* calculated as 18 / 16 = 1.125 */
   line-height: 1.33em; /* calculated as 24 / 18 = 1.33 */
   text-align: left;
+}
+
+/* Set heading parent properties */
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+  padding-bottom: 1em;
+  font-weight: bold;
+  font-family: sans-serif;
 }
