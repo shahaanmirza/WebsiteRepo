@@ -9,7 +9,7 @@ video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,a
 /* Set html parent properties */
 html {
   background: #454851;
-  color: #E6EFE9;
+  color: #EAE5E5;
   font-family: Verdana, Helvetica, Arial;
   font-size: 1.125em; /* calculated as 18 / 16 = 1.125 */
   line-height: 1.33em; /* calculated as 24 / 18 = 1.33 */
@@ -33,8 +33,8 @@ h4 {
 #header {
   padding-bottom: 1.5em;
   text-decoration: none;
-  background: #E07BE0;
-  color: #000000;
+  background: #8AA1B1;
+  color: #EAE5E5;
 }
 #header h1 {
   font-size: 2em;
@@ -49,8 +49,8 @@ h4 {
   text-align: left;
   flex-wrap: wrap;
 
-  background-color: : #000000;
-  color: #FFFFFF;
+  background-color: : #FFC9B5;
+  color: #000000;
   text-transform: uppercase;
   padding: .25em;
   font-weight: bolder;
@@ -62,15 +62,15 @@ h4 {
 .nav-resume:focus,
 .nav-studentorgs:hover,
 .nav-studentorgs:focus {
-  color: #000000;
-  background-color: #FFFFFF;
+  color: #FFFFFF;
+  background-color: #000000;
 }
 
-.nav-home:active,
+/* .nav-home:active,
 .nav-resume:active,
 .nav-student:active {
   background-color: #C2EABA;
-}
+}*/
 
 /* index.html About Me section css */
 #about-me {
@@ -81,7 +81,7 @@ h4 {
 
 #about-me p {
   font-size: .75em;
-  background-color: #000000;
+  background-color: #3F414A;
 }
 
 /* index.html Classes section css */
@@ -98,12 +98,15 @@ h4 {
   list-style-position: inside;
   margin-left: 5px;
 }
+#classes h3 {
+  background-color: #393B43;
+}
 #coursework-f20 {
-
+  background-color: #3F414A;
 }
 #coursework-s21 {
-
+  background-color: #3F414A;
 }
 #coursework-f21 {
-
+  background-color: #3F414A;
 }
