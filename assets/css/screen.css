@@ -65,3 +65,21 @@ h4 {
   color: #000000;
   background-color: #FFFFFF;
 }
+
+.nav-home:active,
+.nav-resume:active,
+.nav-student:active {
+  background-color: #C2EABA;
+}
+
+/* index.html About Me Section CSS */
+#about-me {
+  text-align: center;
+  flex-wrap: nowrap;
+  font-family: Arial, monospace;
+}
+
+#about-me p {
+  font-size: .75em;
+  background-color: #000000;
+}
