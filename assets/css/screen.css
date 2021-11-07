@@ -14,7 +14,7 @@ html {
   font-size: 1.125em; /* calculated as 18 / 16 = 1.125 */
   line-height: 1.33em; /* calculated as 24 / 18 = 1.33 */
   text-align: left;
-  margin-left: 10px;
+  margin: 10px;
 }
 
 /* Set heading parent properties */
@@ -72,7 +72,7 @@ h4 {
   background-color: #C2EABA;
 }
 
-/* index.html About Me Section CSS */
+/* index.html About Me section css */
 #about-me {
   text-align: center;
   flex-wrap: nowrap;
@@ -82,4 +82,28 @@ h4 {
 #about-me p {
   font-size: .75em;
   background-color: #000000;
+}
+
+/* index.html Classes section css */
+#classes h2 {
+  text-align: center;
+  padding-bottom: .5em;
+}
+#classes h3 {
+  font-size: .75em;
+}
+#classes ul {
+  font-size: .5em;
+  list-style-type: square;
+  list-style-position: inside;
+  margin-left: 5px;
+}
+#coursework-f20 {
+
+}
+#coursework-s21 {
+
+}
+#coursework-f21 {
+
 }
