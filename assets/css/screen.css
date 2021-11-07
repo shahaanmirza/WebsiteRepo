@@ -14,7 +14,7 @@ html {
   font-size: 1.125em; /* calculated as 18 / 16 = 1.125 */
   line-height: 1.33em; /* calculated as 24 / 18 = 1.33 */
   text-align: left;
-  margin-left: auto;
+  margin-left: 10px;
 }
 
 /* Set heading parent properties */
@@ -35,7 +35,6 @@ h4 {
   text-decoration: none;
   background: #E07BE0;
   color: #000000;
-  margin: 10px;
 }
 #header h1 {
   font-size: 2em;
@@ -47,7 +46,7 @@ h4 {
   flex-direction: row;
   justify-content: space-between;
   text-decoration: none;
-  text-align: justify;
+  text-align: left;
   flex-wrap: wrap;
 
   background-color: : #000000;
@@ -56,12 +55,13 @@ h4 {
   padding: .25em;
   font-weight: bolder;
 }
-li.nav-home: hover,
-li.nav-home: focus,
-li.nav-resume: hover,
-li.nav-resume: focus,
-li.nav-studentorgs: hover,
-li.nav-studentorgs: focus {
+
+.nav-home:hover,
+.nav-home:focus,
+.nav-resume:hover,
+.nav-resume:focus,
+.nav-studentorgs:hover,
+.nav-studentorgs:focus {
   color: #000000;
   background-color: #FFFFFF;
 }
