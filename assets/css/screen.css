@@ -73,8 +73,20 @@ h4 {
 /* index.html About Me section css */
 #about-me {
   text-align: center;
-  flex-wrap: nowrap;
   font-family: Arial, monospace;
+}
+img {
+  float:left;
+  max-width: 20%;
+  padding-right: 10px;
+}
+@media screen and (min-width: 720px) {
+  img {
+    max-width: 100%;
+    padding-right: 0px;
+    padding-bottom: 10px;
+
+  }
 }
 #about-me p {
   font-size: .75em;
