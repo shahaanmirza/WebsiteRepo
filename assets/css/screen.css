@@ -170,6 +170,16 @@ h4 {
   font-weight: lighter;
   padding-bottom: 1em;
 }
+#work-experience details {
+  font-size: .8em;
+  padding-bottom: .5em;
+}
+.role-details li {
+  list-style-type: square;
+  list-style-position: inside;
+  margin-left: 5px;
+  font-size: .75em;
+}
 /* index.html footer section css */
 #footer p {
   padding-bottom: 1em;
