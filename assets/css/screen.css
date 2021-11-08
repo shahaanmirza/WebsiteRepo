@@ -153,6 +153,10 @@ h4 {
   list-style-position: inside;
   margin-left: 5px;
 }
+#company-name {
+  font-weight: bold;
+  text-transform: uppercase;
+}
 /* index.html footer section css */
 #footer p {
   padding-bottom: 1em;
