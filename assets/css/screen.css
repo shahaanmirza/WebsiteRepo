@@ -124,6 +124,11 @@ h4 {
   text-decoration: none;
   background-color: #3F414A;
 }
+#contact li:hover,
+#contact li:focus {
+  color: #FFFFFF;
+  background-color: #000000;
+}
 .section-head {
   text-align: center;
   font-weight: bold;
