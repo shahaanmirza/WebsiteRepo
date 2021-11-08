@@ -180,6 +180,18 @@ h4 {
   margin-left: 5px;
   font-size: .75em;
 }
+
+/* studentorgs student-org-group section css */
+#student-orgs-group {
+  font-size: 1.8em;
+  line-height: 2.175em;
+}
+#student-orgs-group li {
+  list-style-type: square;
+  list-style-position: inside;
+  margin-left: 5px;
+  font-size: .75em;
+}
 /* index.html footer section css */
 #footer p {
   padding-bottom: 1em;
