@@ -135,7 +135,10 @@ h4 {
   font-size: 1.25em;
 }
 /* resume education section css */
-#education {}
+#degree-school {
+  font-weight: bold;
+  font-style: italic;
+}
 /* index.html footer section css */
 #footer p {
   padding-bottom: 1em;
