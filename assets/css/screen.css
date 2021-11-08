@@ -82,7 +82,8 @@ img {
 }
 @media screen and (min-width: 720px) {
   img {
-    max-width: 100%;
+    max-width: 30%;
+    float: none;
     padding-right: 0px;
     padding-bottom: 10px;
 
