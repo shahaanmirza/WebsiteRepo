@@ -112,9 +112,8 @@ h4 {
 
 /* resume h-card section css */
 #contact h2 {
-  text-align: center;
-  font-size: 1.25em;
   text-decoration: underline;
+  font-size: 1.35em;
 }
 #contact ul {
   display:flex;
@@ -125,7 +124,13 @@ h4 {
   text-decoration: none;
   background-color: #3F414A;
 }
-
+.section-head {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+/* resume education section css */
+#education {}
 /* index.html footer section css */
 #footer p {
   padding-bottom: 1em;
