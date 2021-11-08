@@ -153,9 +153,14 @@ h4 {
   list-style-position: inside;
   margin-left: 5px;
 }
-#company-name {
+#work-experience h3 {
   font-weight: bold;
   text-transform: uppercase;
+}
+#company-name b {
+  font-size: .9em;
+  font-style: normal;
+  text-transform: capitalize;
 }
 /* index.html footer section css */
 #footer p {
