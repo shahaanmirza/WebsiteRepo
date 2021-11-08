@@ -36,6 +36,7 @@ h4 {
   background: #8AA1B1;
   color: #EAE5E5;
 }
+
 #header h1 {
   font-size: 2em;
   text-align: center;
@@ -91,6 +92,7 @@ h4 {
 }
 #classes h3 {
   font-size: .75em;
+  text-align: center;
 }
 #classes ul {
   font-size: .5em;
@@ -109,4 +111,16 @@ h4 {
 }
 #coursework-f21 {
   background-color: #3F414A;
+  padding-bottom: 1em;
+}
+
+/* index.html footer section css */
+#footer p {
+  padding-bottom: 1em;
+  padding-top: 1em;
+  background: #8AA1B1;
+  font-size: 20px;
+  text-align: center;
+  color: #EAE5E5;
+  margin-bottom: 10px;
 }
