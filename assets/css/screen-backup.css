@@ -1,0 +1,217 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126 License: none (public domain) */ /* stylelint-disable*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,
+video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-enable */
+
+/* Begin site styles below */
+
+/* Set html parent properties */
+html {
+  background: #454851;
+  color: #EAE5E5;
+  font-family: Verdana, Helvetica, Arial;
+  font-size: 1.5em; /* calculated as 24px / 16 = 1.5 */
+  line-height: 1.66666667em; /* calculated as 30px / 18 = 1.66666667 */
+  text-align: left;
+  margin: 10px;
+}
+
+/* Set heading parent properties */
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+/* Create a functioning and aesthetic navigation bar */
+#header {
+  padding-bottom: 1.5em;
+  text-decoration: none;
+  background: #8AA1B1;
+  color: #EAE5E5;
+}
+#header h1 {
+  font-size: 2em;
+  text-align: center;
+}
+.navigation-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-decoration: none;
+  text-align: left;
+  flex-wrap: wrap;
+
+  background-color: #FFC9B5;
+  color: #000000;
+  text-transform: uppercase;
+  padding: .25em;
+  font-weight: bolder;
+}
+.nav-home:hover,
+.nav-home:focus,
+.nav-resume:hover,
+.nav-resume:focus,
+.nav-studentorgs:hover,
+.nav-studentorgs:focus {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+/* .nav-home:active,
+.nav-resume:active,
+.nav-student:active {
+  background-color: #C2EABA;
+}*/
+
+/* index.html About Me section css */
+#about-me {
+  text-align: center;
+  font-family: Arial, monospace;
+}
+img {
+  float:left;
+  max-width: 20%;
+  padding-right: 10px;
+}
+@media screen and (min-width: 720px) {
+  img {
+    max-width: 30%;
+    float: none;
+    padding-right: 0px;
+    padding-bottom: 10px;
+
+  }
+}
+#about-me p {
+  font-size: .75em;
+  background-color: #3F414A;
+}
+
+/* index.html Classes section css */
+#classes h2 {
+  text-align: center;
+  padding-bottom: .5em;
+}
+#classes h3 {
+  font-size: .75em;
+  text-align: center;
+}
+#classes ul {
+  font-size: .5em;
+  list-style-type: square;
+  list-style-position: inside;
+  margin-left: 5px;
+}
+#classes h3 {
+  background-color: #393B43;
+}
+#coursework-f20 {
+  background-color: #3F414A;
+}
+#coursework-s21 {
+  background-color: #3F414A;
+}
+#coursework-f21 {
+  background-color: #3F414A;
+  padding-bottom: 1em;
+}
+
+/* resume h-card section css */
+#contact h2 {
+  text-decoration: underline;
+  font-size: 1.35em;
+}
+#contact ul {
+  display:flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  text-align: justify;
+  text-decoration: none;
+  background-color: #3F414A;
+}
+#contact li:hover,
+#contact li:focus {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.section-head {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+/* resume education section css */
+#degree-school {
+  font-weight: bold;
+  font-style: italic;
+}
+#education h4 {
+  padding: 0em;
+  font-weight: normal;
+  font-size: 1em;
+  font-style: italic;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+#student-orgs {
+  font-size: .5em;
+  list-style-type: square;
+  list-style-position: inside;
+  margin-left: 5px;
+}
+.section-head h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: .3em;
+}
+.company-name b {
+  font-size: .9em;
+  font-style: normal;
+  text-transform: capitalize;
+  font-weight: lighter;
+}
+.title-duration {
+  font-size: .8em;
+  font-style: italic;
+  font-weight: lighter;
+  padding-bottom: 1em;
+}
+#work-experience details {
+  font-size: .8em;
+  padding-bottom: .5em;
+}
+.role-details li {
+  list-style-type: square;
+  list-style-position: inside;
+  margin-left: 5px;
+  font-size: .75em;
+}
+
+/* studentorgs student-org-group section css */
+#student-orgs-group {
+  font-size: 1.8em;
+  line-height: 2.175em;
+}
+#student-orgs-group li {
+  list-style-type: square;
+  list-style-position: inside;
+  margin-left: 5px;
+  font-size: .75em;
+}
+/* index.html footer section css */
+#footer p {
+  padding-bottom: 1em;
+  padding-top: 1em;
+  background: #8AA1B1;
+  font-size: 20px;
+  text-align: center;
+  color: #EAE5E5;
+  margin-bottom: 10px;
+}
