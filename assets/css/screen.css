@@ -5,3 +5,12 @@ video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,a
 /* stylelint-enable */
 
 /* Begin site styles below */
+html {
+  background: #454851;
+  color: #EAE5E5;
+  font-family: Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: left;
+  margin: 10px;
+}
