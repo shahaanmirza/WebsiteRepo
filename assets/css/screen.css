@@ -29,12 +29,15 @@ h4 {
 
 h1 {
   font-size: 58.594px;
+  line-height: 60px; /* 30px * 2 = 60px */
 }
 h2 {
   font-size: 46.875px;
+  line-height: 52.5px; /* 30px * 1.75 = 52.5px */
 }
 h3 {
   font-size: 37.5px;
+  line-height: 45px; /* 30px * 1.5 = 45px */
 }
 h4 {
   font-size: 30px;
