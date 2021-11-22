@@ -39,6 +39,8 @@ h4 {
 h1 {
   font-size: 58.594px;
   line-height: 60px; /* 30px * 2 = 60px */
+  text-align: center;
+  font-weight: bolder;
 }
 h2 {
   font-size: 46.875px;
