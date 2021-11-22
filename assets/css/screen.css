@@ -224,13 +224,10 @@ ol {
   }
 }
 @media screen and (min-width: 940px) {
-  #about-me {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  img {
-    max-width: 30vw;
-  }
+  p,
+  figure {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 /* End media queries */
