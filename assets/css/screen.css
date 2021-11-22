@@ -216,3 +216,21 @@ ol {
   text-align: left;
 }
 /* End studentorgs properties */
+
+/* Begin media queries */
+@media screen and (min-width: 680px) {
+  img {
+    float: left;
+  }
+}
+@media screen and (min-width: 940px) {
+  #about-me {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  img {
+    max-width: 25vw;
+  }
+}
+/* End media queries */
