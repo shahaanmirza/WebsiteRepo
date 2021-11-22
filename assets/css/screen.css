@@ -63,6 +63,10 @@ img {
   max-width: 50%;
   padding-right: 10px; /* 20px padding * .5 = 10px */
 }
+ul,
+ol {
+  margin-left: 10px; /* 20px padding * .5 = 10px */
+}
 #header {
   padding-bottom: 20px; /* 20px = 20px padding */
   background: #545863;
