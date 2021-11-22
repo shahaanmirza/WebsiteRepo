@@ -36,8 +36,8 @@ h4 {
   font-family: "Helvetica Neue";
 }
 h1 {
-  font-size: 58.594px;
-  line-height: 60px; /* 30px * 2 = 60px */
+  font-size: 37.5px;
+  line-height: 45px; /* 30px * 1.5 = 45px */
   text-align: center;
   font-weight: bolder;
   padding-bottom: 20px;
@@ -45,6 +45,8 @@ h1 {
 h2 {
   font-size: 46.875px;
   line-height: 52.5px; /* 30px * 1.75 = 52.5px */
+  text-align: center;
+  padding-bottom: 10px; /* 20px padding * .5 = 10px */
 }
 h3 {
   font-size: 37.5px;
@@ -61,7 +63,7 @@ a {
 img {
   display: block;
   float: left;
-  max-width: 50%;
+  max-width: 100%;
   padding-right: 10px; /* 20px padding * .5 = 10px */
 }
 ul,
@@ -99,7 +101,7 @@ ol {
   background: #545863;
   color: #FFFFFF;
   font-size: 15.36px; /* 24px * .66 = 15.36px */
-  line-height:
+  line-height: 19.2px;
   font-weight: bold;
   text-align: center;
   margin-bottom: 10px; /* 20px padding * .5 = 10px */
@@ -112,16 +114,14 @@ ol {
   padding-top: 10px; /* 20px padding * .5 = 10px */
   padding-bottom: 10px; /* 20px padding * .5 = 10px */
 }
-#classes h2 {
-  text-align: center;
-  padding-bottom: 10px; /* 20px padding * .5 = 10px */
-}
 #classes h3 {
   font-size: 15.36px; /* 24px * .66 = 15.36px */
+  line-height: 19.2px;
   text-align: center;
 }
 #classes ul {
-  font-size: 12px; /* 24px * .5 = 12px */
+  font-size: 12.288px; /* 24px * .5 = 12px */
+  line-height: 15.36px;
   list-style-type: square;
   list-style-position: inside;
 }
@@ -132,7 +132,7 @@ ol {
   background-color: #2F3137;
 }
 #coursework-s21 {
-  background-color: #26272C;
+  background-color: #2F3137;
 }
 #coursework-f21 {
   background-color: #2F3137;
@@ -140,3 +140,68 @@ ol {
 /* End classes-section properties */
 
 /* Begin resume properties */
+#contact ul {
+  display:flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  text-align: justify;
+  text-decoration: none;
+  background-color: #2F3137;
+}
+#contact a:hover {
+  text-decoration: underline;
+}
+.section-head {
+  font-weight: bold;
+  font-size: 30px; /* 24px * 1.25 = 30px */
+  line-height: 37.5px;
+}
+#degree-school {
+  font-weight: bold;
+  font-weight: italic;
+}
+#education h4 {
+  padding-top: 10px; /* 20px padding *.5 = 10px */
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  text-decoration: none;
+}
+#education h4:hover {
+  text-decoration: underline;
+}
+#student-orgs {
+  font-size: 12.288px; /* 24px * .5 = 12px */
+  line-height: 15.36px;
+  list-style-type: square;
+  list-style-position: inside;
+}
+.section-head h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 6.6px; /* 20px padding * .33 = 6.6px */
+}
+.company-name b {
+  font-style: normal;
+  text-transform: capitalize;
+  font-weight: lighter;
+}
+.title-duration {
+  font-size: 19.2px; /* 24px * .75 = 18px */
+  line-height: 24px;
+  font-style: italic;
+  font-weight: lighter;
+  padding-bottom: 10px; /* 20px padding * .5 = 10px */
+}
+#work-experience details {
+  font-size: 19.2px; /* 24px * .75 = 18px */
+  line-height: 24px;
+  padding-bottom: 10px; /* 20px padding * .5 = 10px */
+}
+.role-details li {
+  list-style-type: square;
+  list-style-position: inside;
+  font-size: 12.288px; /* 24px * .5 = 12px */
+  line-height: 15.36px;
+}
