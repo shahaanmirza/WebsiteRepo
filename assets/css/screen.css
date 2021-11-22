@@ -18,10 +18,10 @@ html {
   background: #454851;
   color: #EAE5E5;
   font-family: Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 1em; /* 24px */
+  line-height: 1.25em; /* 30px  */
   text-align: left;
-  padding: 20px;
+  padding: 0.8333333333333334em; /* 20px */
 }
 
 /* Heading element styles below */
@@ -29,32 +29,32 @@ h1,
 h2,
 h3,
 h4 {
-  padding-top: 10px; /* 20px padding * .5 = 10px */
-  padding-bottom: 10px; /* 20px padding * .5 = 10px */
+  padding-top: 0.4166666666666667em; /* 20px padding * .5 = 10px */
+  padding-bottom: 0.4166666666666667em; /* 20px padding * .5 = 10px */
   font-weight: bold;
   text-transform: uppercase;
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue", sans-serif;
 }
 h1 {
-  font-size: 37.5px;
-  line-height: 45px; /* 30px * 1.5 = 45px */
+  font-size: 1.5625em;
+  line-height: 1.875em; /* 30px * 1.5 = 45px */
   text-align: center;
   font-weight: bolder;
-  padding-bottom: 20px;
+  padding-bottom: 0.4166666666666667em;
 }
 h2 {
-  font-size: 30px;
-  line-height: 37.5px; /* 30px * 1.25 = 37.5px */
+  font-size: 1.875em;
+  line-height: 1.5625em; /* 30px * 1.25 = 37.5px */
   text-align: center;
-  padding-bottom: 10px; /* 20px padding * .5 = 10px */
+  padding-bottom: 0.4166666666666667em; /* 20px padding * .5 = 10px */
 }
 h3 {
-  font-size: 37.5px;
-  line-height: 45px; /* 30px * 1.5 = 45px */
+  font-size: 1.5625em;
+  line-height: 1.875em; /* 30px * 1.5 = 45px */
 }
 h4 {
-  font-size: 30px;
-  line-height: 37.5px; /* 30px * 1.25 = 37.5px */
+  font-size: 1.25em;
+  line-height: 1.5625em; /* 30px * 1.25 = 37.5px */
 }
 a {
   text-decoration: none;
@@ -66,17 +66,17 @@ img {
   margin-right: auto;
   width: 100%;
   max-width: 50vw;
-  padding-right: 10px; /* 20px padding * .5 = 10px */
-  padding-bottom: 10px; /* 20px padding * .5 = 10px */
+  padding-right: 0.4166666666666667em; /* 20px padding * .5 = 10px */
+  padding-bottom: 0.4166666666666667em; /* 20px padding * .5 = 10px */
 }
 ul,
 ol {
-  padding-left: 10px; /* 20px padding * .5 = 10px */
+  padding-left: 0.4166666666666667em; /* 20px padding * .5 = 10px */
 }
 
 /* Begin header properties */
 #header {
-  padding-bottom: 20px; /* 20px = 20px padding */
+  padding-bottom: 0.8333333333333334em; /* 20px = 20px padding */
   background: #545863;
   color: #FFFFFF;
 }
@@ -87,7 +87,7 @@ ol {
   text-align: left;
   flex-wrap: wrap;
   text-transform: uppercase;
-  padding: 5px; /* 20px padding * .25 = 5px */
+  padding: 0.20833333333333334em; /* 20px padding * .25 = 5px */
 }
 .nav-home:hover,
 .nav-resume:hover,
@@ -100,51 +100,49 @@ ol {
 
 /* Begin footer properties */
 #footer {
-  padding: 20px; /* 20px = 20px padding */
+  padding: 0.8333333333333334em; /* 20px = 20px padding */
   background: #545863;
   color: #FFFFFF;
-  font-size: 15.36px; /* 24px * .66 = 15.36px */
-  line-height: 19.2px;
+  font-size: 0.64em; /* 24px * .66 = 15.36px */
+  line-height: 0.7999999999999999em;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 10px; /* 20px padding * .5 = 10px */
-  margin-top: 20px; /* 20px = 20px padding */
+  margin-bottom: 0.4166666666666667em; /* 20px padding * .5 = 10px */
+  margin-top: 0.8333333333333334em; /* 20px = 20px padding */
 }
 /* End footer properties */
 
 /* Begin classes-section properties */
 #classes {
-  padding-top: 10px; /* 20px padding * .5 = 10px */
-  padding-bottom: 10px; /* 20px padding * .5 = 10px */
+  padding-top: 0.4166666666666667em; /* 20px padding * .5 = 10px */
+  padding-bottom: 0.4166666666666667em; /* 20px padding * .5 = 10px */
+}
+.section-head h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.27499999999999997em; /* 20px padding * .33 = 6.6px */
 }
 #classes h3 {
-  font-size: 15.36px; /* 24px * .66 = 15.36px */
-  line-height: 19.2px;
+  font-size: 0.64em; /* 24px * .66 = 15.36px */
+  line-height: 0.7999999999999999em;
   text-align: left;
+  background-color: #383B42;
 }
 #classes ul {
-  font-size: 12.288px; /* 24px * .5 = 12px */
-  line-height: 15.36px;
+  font-size: 0.512em; /* 24px * .5 = 12px */
   list-style-type: square;
   list-style-position: inside;
 }
-#classes h3 {
-  background-color: #383B42;
-}
-#coursework-f20 {
-  background-color: #2F3137;
-}
+#coursework-f20,
+#coursework-f21,
 #coursework-s21 {
-  background-color: #2F3137;
-}
-#coursework-f21 {
   background-color: #2F3137;
 }
 /* End classes-section properties */
 
 /* Begin resume properties */
 #contact ul {
-  display:flex;
+  display: flex;
   flex-direction: row;
   flex-flow: wrap;
   justify-content: space-evenly;
@@ -157,34 +155,28 @@ ol {
 }
 .section-head {
   font-weight: bold;
-  font-size: 30px; /* 24px * 1.25 = 30px */
-  line-height: 37.5px;
+  font-size: 1.25em; /* 24px * 1.25 = 30px */
+  line-height: 1.5625em;
 }
 #degree-school {
   font-weight: bold;
   font-style: italic;
 }
 #education h4 {
-  padding-top: 10px; /* 20px padding *.5 = 10px */
+  padding-top: 0.4166666666666667em; /* 20px padding *.5 = 10px */
   font-weight: normal;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 1em;
+  line-height: 1.25em;
   text-decoration: none;
 }
 #education h4:hover {
   text-decoration: underline;
 }
 .student-orgs {
-  font-size: 12.288px; /* 24px * .5 = 12px */
-  line-height: 15.36px;
+  font-size: 0.512em; /* 24px * .5 = 12px */
   list-style-type: square;
   list-style-position: inside;
   text-align: left;
-}
-.section-head h3 {
-  font-weight: bold;
-  text-transform: uppercase;
-  padding: 6.6px; /* 20px padding * .33 = 6.6px */
 }
 .company-name b {
   font-style: normal;
@@ -192,22 +184,21 @@ ol {
   font-weight: lighter;
 }
 .title-duration {
-  font-size: 19.2px; /* 24px * .75 = 18px */
-  line-height: 24px;
+  font-size: 0.7999999999999999em; /* 24px * .75 = 18px */
+  line-height: 1em;
   font-style: italic;
   font-weight: lighter;
-  padding-bottom: 10px; /* 20px padding * .5 = 10px */
+  padding-bottom: 0.4166666666666667em; /* 20px padding * .5 = 10px */
 }
 #work-experience details {
-  font-size: 19.2px; /* 24px * .75 = 18px */
-  line-height: 24px;
-  padding-bottom: 10px; /* 20px padding * .5 = 10px */
+  font-size: 0.7999999999999999em; /* 24px * .75 = 18px */
+  padding-bottom: 0.4166666666666667em; /* 20px padding * .5 = 10px */
 }
 .role-details li {
   list-style-type: square;
   list-style-position: inside;
-  font-size: 12.288px; /* 24px * .5 = 12px */
-  line-height: 15.36px;
+  font-size: 0.512em; /* 24px * .5 = 12px */
+
 }
 /* End resume properties */
 
@@ -218,12 +209,12 @@ ol {
 /* End studentorgs properties */
 
 /* Begin media queries */
-@media screen and (min-width: 680px) {
+@media screen and (min-width: 28.333333333333332em /* 680px */) {
   img {
     float: left;
   }
 }
-@media screen and (min-width: 940px) {
+@media screen and (min-width: 39.166666666666664em/* 940px */) {
   #about-me
   p,
   img {
