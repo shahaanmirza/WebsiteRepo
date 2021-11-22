@@ -43,8 +43,8 @@ h1 {
   padding-bottom: 20px;
 }
 h2 {
-  font-size: 46.875px;
-  line-height: 52.5px; /* 30px * 1.75 = 52.5px */
+  font-size: 30px;
+  line-height: 37.5px; /* 30px * 1.25 = 37.5px */
   text-align: center;
   padding-bottom: 10px; /* 20px padding * .5 = 10px */
 }
@@ -174,11 +174,12 @@ ol {
 #education h4:hover {
   text-decoration: underline;
 }
-#student-orgs {
+.student-orgs {
   font-size: 12.288px; /* 24px * .5 = 12px */
   line-height: 15.36px;
   list-style-type: square;
   list-style-position: inside;
+  text-align: left;
 }
 .section-head h3 {
   font-weight: bold;
@@ -208,3 +209,10 @@ ol {
   font-size: 12.288px; /* 24px * .5 = 12px */
   line-height: 15.36px;
 }
+/* End resume properties */
+
+/* Begin studentorgs properties */
+#student-orgs-group h2 {
+  text-align: left;
+}
+/* End studentorgs properties */
