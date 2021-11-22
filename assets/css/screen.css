@@ -62,9 +62,12 @@ a {
 }
 img {
   display: block;
-  float: left;
-  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 50vw;
   padding-right: 10px; /* 20px padding * .5 = 10px */
+  padding-bottom: 10px; /* 20px padding * .5 = 10px */
 }
 ul,
 ol {
@@ -117,7 +120,7 @@ ol {
 #classes h3 {
   font-size: 15.36px; /* 24px * .66 = 15.36px */
   line-height: 19.2px;
-  text-align: center;
+  text-align: left;
 }
 #classes ul {
   font-size: 12.288px; /* 24px * .5 = 12px */
