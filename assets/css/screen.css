@@ -51,7 +51,8 @@ h3 {
   line-height: 45px; /* 30px * 1.5 = 45px */
 }
 h4 {
-  font-size: 20px; /* 20px = 20px padding */
+  font-size: 30px;
+  line-height: 37.5px; /* 30px * 1.25 = 37.5px */
 }
 a {
   text-decoration: none;
@@ -68,8 +69,7 @@ ol {
   margin-left: 10px; /* 20px padding * .5 = 10px */
 }
 
-/* Begin header properties below */
-
+/* Begin header properties */
 #header {
   padding-bottom: 20px; /* 20px = 20px padding */
   background: #545863;
@@ -90,4 +90,18 @@ ol {
   font-weight: bolder;
   background: #383B42;
   color: #FBB02D;
+}
+/* End header properties */
+
+/* Begin footer properties */
+#footer {
+  padding: 20px; /* 20px = 20px padding */
+  background: #545863;
+  color: #FFFFFF;
+  font-size: 15.36px; /* 24px * .66 = 15.36px */
+  line-height:
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px; /* 20px padding * .5 = 10px */
+  margin-top: 20px; /* 20px = 20px padding */
 }
