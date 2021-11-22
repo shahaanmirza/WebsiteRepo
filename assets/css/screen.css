@@ -84,3 +84,10 @@ ol {
   text-transform: uppercase;
   padding: 5px; /* 20px padding * .25 = 5px */
 }
+.nav-home:hover,
+.nav-resume:hover,
+.nav-studentorgs:hover {
+  font-weight: bolder;
+  background: #383B42;
+  color: #FBB02D;
+}
