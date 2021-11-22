@@ -5,6 +5,15 @@ video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,a
 /* stylelint-enable */
 
 /* Begin site styles below */
+
+/*
+    TYPOGRAPHIC GRID PROPERTIES:
+    Base font-size: 24px
+    Base line-height: 30px
+    Modular Scale: 1.25
+        https://www.modularscale.com/?24&px&1.25
+*/
+
 html {
   background: #454851;
   color: #EAE5E5;
