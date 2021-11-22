@@ -21,7 +21,7 @@ html {
   font-size: 24px;
   line-height: 30px;
   text-align: left;
-  padding: 30px;
+  padding: 20px;
 }
 
 /* Heading element styles below */
@@ -29,8 +29,8 @@ h1,
 h2,
 h3,
 h4 {
-  padding-top: 15px; /* 30px padding * .5 = 15px */
-  padding-bottom: 15px; /* 30px padding * .5 = 15px */
+  padding-top: 10px; /* 20px padding * .5 = 10px */
+  padding-bottom: 10px; /* 20px padding * .5 = 10px */
   font-weight: bold;
   text-transform: uppercase;
   font-family: "Helvetica Neue";
@@ -40,7 +40,7 @@ h1 {
   line-height: 60px; /* 30px * 2 = 60px */
   text-align: center;
   font-weight: bolder;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 h2 {
   font-size: 46.875px;
@@ -51,7 +51,7 @@ h3 {
   line-height: 45px; /* 30px * 1.5 = 45px */
 }
 h4 {
-  font-size: 30px;
+  font-size: 20px; /* 20px = 20px padding */
 }
 a {
   text-decoration: none;
@@ -61,5 +61,10 @@ img {
   display: block;
   float: left;
   max-width: 50%;
-  padding-right: 15px;
+  padding-right: 10px; /* 20px padding * .5 = 10px */
+}
+#header {
+  padding-bottom: 20px; /* 20px = 20px padding */
+  background: #545863;
+  color: #FFFFFF;
 }
