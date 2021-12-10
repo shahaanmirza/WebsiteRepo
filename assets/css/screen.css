@@ -223,7 +223,7 @@ ol {
     float: left;
   }
 }
-@media screen and (min-width: 39.166666666666664em/* 940px */) {
+@media screen and (min-width: 700px/* 940px */) {
   #about-me
   p,
   img {
