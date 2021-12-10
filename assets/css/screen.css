@@ -112,6 +112,15 @@ ol {
 }
 /* End footer properties */
 
+/* Begin about-me section properties */
+#about-me p {
+  position: relative;
+	width: 700px;
+	margin: 0 auto;
+	min-height: 200px;
+}
+/* End about-me section properties */
+
 /* Begin classes-section properties */
 #classes {
   padding-top: 0.4166666666666667em; /* 20px padding * .5 = 10px */
