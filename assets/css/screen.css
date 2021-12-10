@@ -235,4 +235,10 @@ ol {
     max-width: 25%;
   }
 }
+@media screen and (max-width: 700px) {
+  #about-me p {
+    width: auto;
+    font-size: 75%;
+  }
+}
 /* End media queries */
