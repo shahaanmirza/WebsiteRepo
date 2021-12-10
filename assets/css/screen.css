@@ -18,7 +18,7 @@ html {
   background: #454851;
   color: #EAE5E5;
   font-family: Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1em; /* 24px */
+  font-size: 1.5em; /* 24px / 16px = 1.5em */
   line-height: 1.25em; /* 30px  */
   text-align: left;
   padding: 0.8333333333333334em; /* 20px */
