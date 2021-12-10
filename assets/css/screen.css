@@ -215,7 +215,27 @@ ol {
 #student-orgs-group h2 {
   text-align: left;
 }
+.student-orgs-grid ol{
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.27499999999999997em; /* 20px padding * .33 = 6.6px */
+  padding-left: 0;
+}
+.student-orgs-grid
+#psac,
+#sga,
+#intinium,
+#lettuce {
+  background: #2F3137;
+}
 /* End studentorgs properties */
+
+/* Begin 404 properties */
+.error-page {
+  align-content: center;
+}
+/* End 404 properties */
 
 /* Begin media queries */
 @media screen and (min-width: 28.333333333333332em /* 680px */) {
@@ -239,6 +259,9 @@ ol {
   #about-me p {
     width: auto;
     font-size: 75%;
+  }
+  .student-orgs-grid ol {
+    grid-template-columns: 1fr;
   }
 }
 /* End media queries */
