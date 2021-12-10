@@ -19,7 +19,7 @@ html {
   color: #EAE5E5;
   font-family: Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.5em; /* 24px / 16px = 1.5em */
-  line-height: 1.25em; /* 30px  */
+  line-height: 1.875em; /* 30px / 16px = 1.875em */
   text-align: left;
   padding: 0.8333333333333334em; /* 20px */
 }
